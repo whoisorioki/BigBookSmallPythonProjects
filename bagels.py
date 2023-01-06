@@ -77,8 +77,8 @@ def getClues(guess, secretNum):
     if len(clues) == 0:
         return 'Bagels'
     else:
-        # Sort thr clues int alphabetical order so their original order
-        # doesn't give information awasy.
+        # Sort the clues in alphabetical order so their original order
+        # doesn't give information away.
         clues.sort()
         # Make a single string form the list of string clues.
         return ' '.join(clues)
