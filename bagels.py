@@ -29,7 +29,7 @@ clues would be Fermi Pico.'''.format(NUM_DIGITS))
             # Keep looping untill they enter a valid guess:
             while len(guess) != NUM_DIGITS or not guess.isdecimal():
                 print('Guess #{}: '.format(numGuesses))
-                guess = input('> ')
+                guess = input('-> ')
 
             clues = getClues(guess, secretNum)
             print(clues)
